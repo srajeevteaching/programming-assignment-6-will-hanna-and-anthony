@@ -1,3 +1,8 @@
+# Programmers: Anthony, Will, Hanna
+# Course: CS151, Dr. Rajeev
+# Programming Assignment: 6
+# Program Inputs: File name
+# Program Ouputs: Difference of likes and shares, average likes per type of post
 import numpy as np
 def read_file(filename):
     data_list=[]
