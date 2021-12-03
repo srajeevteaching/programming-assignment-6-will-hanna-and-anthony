@@ -37,8 +37,8 @@ def type_likes(fb):
     for i in fb:
         for x in idk:
             if i[1]==x[0]:
-                x[1]+=1#times it happens
-                x[2]+=float(i[16])#total likes
+                x[1]+=1
+                x[2]+=float(i[16])
     for i in idk:
         i[1]= i[2]/i[1]
     for i in idk:
